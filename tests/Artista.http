@@ -1,0 +1,30 @@
+### Listar os artistas 
+  GET https://localhost:5001/api/artista/listar
+
+
+### Buscar os artistas
+  GET https://localhost:5001/api/artista/buscar/amanda
+
+
+### Cadastrar novos artista
+  POST https://localhost:5001/api/artista/cadastrar
+  Content-Type: application/json
+
+  {
+    "Nome": "Jose",
+    "Cpf": "123456789",
+    "DataNascimento": "1/9/1990"
+  }
+
+### Deletar um artista
+  DELETE  https://localhost:5001/api/artista/deletar/amanda
+
+  
+### Alterar um artista
+  PATCH  https://localhost:5001/api/artista/alterar
+  Content-Type: application/json
+
+  {
+    "nome" : "joaozin",
+    "cpf" : "amanda"
+  }
