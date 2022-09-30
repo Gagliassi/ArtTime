@@ -1,0 +1,27 @@
+// Confirmar se será necessário uma tabela de Produtos, ou se poderão ser apenas inseridos nos campos do cadastro do agendamento
+
+# ### Listar os Produtos 
+#   GET https://localhost:5001/api/Produto/listar
+
+
+# ### Buscar os agendamentos
+#   GET https://localhost:5001/api/Produto/buscar/amanda
+
+
+# ### Cadastrar novos agendamentos
+#   POST https://localhost:5001/api/Produto/cadastrar
+#   Content-Type: application/json
+
+#   {
+#     "Procedimento": "perfuração",
+#     "Localizacao": "nariz"
+#   }
+
+# ### Deletar um Produto
+#   DELETE  https://localhost:5001/api/Produto/deletar/amanda
+
+  
+# ### Alterar um agendamento
+#   PATCH  https://localhost:5001/api/agenProdutodamento/alterar
+#   Content-Type: application/json
+

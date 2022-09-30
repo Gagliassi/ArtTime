@@ -1,0 +1,32 @@
+### Listar os agendamentos 
+  GET https://localhost:5001/api/agendamento/listar
+
+
+### Buscar Clientes
+  GET https://localhost:5001/api/cliente/buscar/amanda
+
+
+### Cadastrar novos clientes
+  POST https://localhost:5001/api/cliente/cadastrar
+  Content-Type: application/json
+
+  {
+    "Nome": "Jose",
+    "Genero": "Masculino",
+    "Cpf": "123456789",
+    "DataNascimento": "12/09/2022",
+    "Contato" "41-909090909"
+  }
+
+### Deletar
+  DELETE  https://localhost:5001/api/cliente/deletar/amanda
+
+  
+### Alterar 
+  PATCH  https://localhost:5001/api/cliente/alterar
+  Content-Type: application/json
+
+#   {
+#     "nome" : "joaozin",
+#     "cpf" : "amanda"
+#   }
